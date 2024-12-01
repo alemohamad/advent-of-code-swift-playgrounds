@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>2024</string>
+	<key>Pages</key>
+	<array>
+		<string>Day1.playgroundpage</string>
+		<string>Day2.playgroundpage</string>
+		<string>Day3.playgroundpage</string>
+		<string>Day4.playgroundpage</string>
+		<string>Day5.playgroundpage</string>
+		<string>Day6.playgroundpage</string>
+		<string>Day7.playgroundpage</string>
+		<string>Day8.playgroundpage</string>
+		<string>Day9.playgroundpage</string>
+		<string>Day10.playgroundpage</string>
+		<string>Day11.playgroundpage</string>
+		<string>Day12.playgroundpage</string>
+		<string>Day13.playgroundpage</string>
+		<string>Day14.playgroundpage</string>
+		<string>Day15.playgroundpage</string>
+		<string>Day16.playgroundpage</string>
+		<string>Day17.playgroundpage</string>
+		<string>Day18.playgroundpage</string>
+		<string>Day19.playgroundpage</string>
+		<string>Day20.playgroundpage</string>
+		<string>Day21.playgroundpage</string>
+		<string>Day22.playgroundpage</string>
+		<string>Day23.playgroundpage</string>
+		<string>Day24.playgroundpage</string>
+		<string>Day25.playgroundpage</string>
+	</array>
+</dict>
+</plist>
