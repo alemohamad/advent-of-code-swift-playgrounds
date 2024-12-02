@@ -44,7 +44,7 @@
  */
 import Foundation
 
-let (leftList, rightList) = readDay1Data()
+let (leftList, rightList) = readLocationsDataFromFile(fileName: "Day1")
 
 func calculateTotalDistance(left: [Int], right: [Int]) -> Int {
     let sortedLeft = left.sorted()
