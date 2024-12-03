@@ -110,20 +110,27 @@ func calculateSimilarityScore(left: [Int], right: [Int]) -> Int {
 
 calculateSimilarityScore(left: leftList, right: rightList)
 
+/*:
+ ## --- Sample Test ---
+ */
+
 func checkSolution() {
     let exampleLeftList = [3, 4, 2, 1, 3, 3]
     let exampleRightList = [4, 3, 5, 3, 9, 3]
     
     let resultTotal = calculateTotalDistance(left: exampleLeftList, right: exampleRightList)
     let expectedResultTotal = 11
-    let resultSimilarity = calculateSimilarityScore(left: exampleLeftList, right: exampleRightList)
-    let expectedResultSimilarity = 31
     
     if resultTotal == expectedResultTotal {
         print("✅ Test Passed! Your solution is correct.")
     } else {
         print("❌ Test Failed. Expected \(expectedResultTotal), but got \(resultTotal).")
     }
+    
+    // ---
+    
+    let resultSimilarity = calculateSimilarityScore(left: exampleLeftList, right: exampleRightList)
+    let expectedResultSimilarity = 31
     
     if resultSimilarity == expectedResultSimilarity {
         print("✅ Test Passed! Your solution is correct.")

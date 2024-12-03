@@ -125,6 +125,10 @@ if let input {
     countSafeReportsWithDampener(input: input)
 }
 
+/*:
+ ## --- Sample Test ---
+ */
+
 func checkSolution() {
     let exampleInput = """
 7 6 4 2 1
@@ -142,6 +146,8 @@ func checkSolution() {
     } else {
         print("❌ Test Failed. Expected \(expectedSafeReports), but got \(resultSafeReports).")
     }
+    
+    // ---
     
     let expectedSafeReportsWithDampener = 4
     let resultSafeReportsWithDampener = countSafeReportsWithDampener(input: exampleInput)
