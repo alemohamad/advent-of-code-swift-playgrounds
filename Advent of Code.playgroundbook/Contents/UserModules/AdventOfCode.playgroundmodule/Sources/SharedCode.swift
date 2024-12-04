@@ -17,7 +17,6 @@ public func readLocationsDataFromFile(fileName: String) -> (leftList: [Int], rig
     var leftList = [Int]()
     var rightList = [Int]()
     
-    // Use readDataFromFile to get the file content
     if let fileContent = readDataFromFile(fileName: fileName) {
         let lines = fileContent.split(separator: "\n")
         for line in lines {
@@ -30,4 +29,11 @@ public func readLocationsDataFromFile(fileName: String) -> (leftList: [Int], rig
     }
     
     return (leftList, rightList)
+}
+
+public func readLinesFromFile(fileName: String) -> [String] {
+    if let fileContent = readDataFromFile(fileName: fileName) {
+        return fileContent.split(separator: "\n").map { String($0) }
+    }
+    return []
 }
